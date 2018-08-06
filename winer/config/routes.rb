@@ -21,11 +21,11 @@ Rails.application.routes.draw do
   get 'wines/edit'
   get 'wines/update'
   get 'wines/delete'
-  get 'user/new'
-  get 'user/create'
-  get 'user/show'
-  get 'user/update'
-  get 'user/edit'
-  get 'user/delete'
+  get 'users/new'
+  get 'users/create'
+  get 'users/show'
+  get 'users/update'
+  get 'users/edit'
+  get 'users/delete'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
