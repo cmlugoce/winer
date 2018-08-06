@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'home/index'
+  get 'sessions/new'
+  get 'sessions/create'
   get 'comments/new'
   get 'comments/create'
   get 'comments/update'
